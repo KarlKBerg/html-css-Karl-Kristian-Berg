@@ -1,0 +1,50 @@
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #aeb7bf;
+  padding: 16px 16px;
+}
+header img {
+  width: 105px;
+  height: auto;
+}
+.header-icons {
+  display: none;
+}
+nav {
+  display: none;
+}
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.shopping-bag {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 1.6rem;
+}
+.shopping-bag p {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  width: 19px;
+  height: 19px;
+  color: white;
+  background: #00930f;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(5%, 5%);
+}
+.shopping-bag i {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
