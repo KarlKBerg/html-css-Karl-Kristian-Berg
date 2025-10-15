@@ -192,3 +192,7 @@ nav {
   background-color: #f0d093;
   cursor: pointer;
 }
+/*Footer*/
+footer img {
+  display: none;
+}
