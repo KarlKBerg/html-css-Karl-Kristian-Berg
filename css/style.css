@@ -1,4 +1,13 @@
+:root {
+  --font-bold: "Raleway", sans-serif;
+  --font-text: "Forum", serif;
+}
+
 /*Header*/
+body {
+  font-family: var(--font-text);
+  background-color: #f2f2f2;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -74,5 +83,67 @@ nav {
   padding: 4.8rem 0.8rem;
   z-index: 2;
   color: white;
+  font-family: var(--font-bold);
+  font-weight: 900;
 }
 /*New arrivals*/
+.products-display {
+  margin-top: 2.4rem;
+}
+.products-display .display-heading {
+  display: flex;
+  padding: 0.8rem 0.8rem;
+  justify-content: space-between;
+}
+.products-display h2 {
+  font-family: var(--font-bold);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.see-all-button {
+  color: #3b79fd;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+/*Card container*/
+.cards-container {
+  margin: 2.4rem 0.8rem;
+}
+/*Cards*/
+.card {
+  width: 18.5rem;
+  height: 28.5rem;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  border-radius: 1.5rem;
+}
+.card p {
+  font-size: 1.4rem;
+  font-family: var(--font-text);
+}
+.card img {
+  width: 14rem;
+  height: 18.2rem;
+  margin: auto;
+}
+.card #heart {
+  position: absolute;
+  top: 0.8rem;
+  right: 0rem;
+  font-size: 2.4rem;
+}
+.card .product-info .category-rating-container {
+  display: flex;
+  margin: 0 0.8rem;
+  justify-content: space-between;
+}
+.card .product-info .rating {
+  display: flex;
+  align-items: center;
+}
+.card .product-info .rating .rated {
+  color: #f0ec00;
+}
