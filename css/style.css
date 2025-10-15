@@ -193,6 +193,39 @@ nav {
   cursor: pointer;
 }
 /*Footer*/
+footer {
+  margin-top: 2.4rem;
+  background-color: #aeb7bf;
+  min-height: 16rem;
+  display: flex;
+  font-family: var(--font-bold);
+}
 footer img {
   display: none;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+footer h2 {
+  margin-top: 0.8rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+footer p {
+  margin-top: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+footer span {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.social-icons {
+  margin-top: 0.8rem;
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: space-between;
 }
