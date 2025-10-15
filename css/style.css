@@ -194,6 +194,9 @@ nav {
 }
 /*Footer*/
 footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
   margin-top: 2.4rem;
   background-color: #aeb7bf;
   min-height: 16rem;
