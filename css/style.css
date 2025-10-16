@@ -29,13 +29,13 @@ nav {
   align-items: center;
   font-size: 3.2rem;
 }
-.shopping-bag {
+.hamburger-menu .shopping-bag {
   position: relative;
   width: 32px;
   height: 32px;
   margin-right: 1.6rem;
 }
-.shopping-bag p {
+.hamburger-menu .shopping-bag p {
   position: absolute;
   z-index: 2;
   bottom: 0;
@@ -52,7 +52,7 @@ nav {
   justify-content: center;
   transform: translate(55%, 25%);
 }
-.shopping-bag i {
+.hamburger-menu .shopping-bag i {
   position: absolute;
   top: 0;
   z-index: 1;
@@ -206,6 +206,12 @@ footer {
 footer img {
   display: none;
 }
+footer .navigation {
+  display: none;
+}
+footer .tos {
+  display: none;
+}
 .contact {
   display: flex;
   flex-direction: column;
@@ -233,3 +239,48 @@ footer span {
   justify-content: space-between;
 }
 /*Media queries*/
+@media screen and (min-width: 800px) {
+  /*HEADER*/
+  header {
+    padding: 2.4rem 2.4rem;
+  }
+  header nav {
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    font-family: var(--font-bold);
+    font-weight: 700;
+  }
+  header nav ul {
+    display: flex;
+    gap: 7.2rem;
+  }
+  .header nav li:active,
+  .header nav li:hover {
+    text-decoration: underline;
+  }
+  header .header-icons {
+    display: inline-block;
+  }
+  header .hamburger-menu {
+    display: none;
+  }
+  header .header-icons {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*FOOTER*/
+  footer img {
+    display: block;
+    width: 251px;
+    height: 135px;
+  }
+  footer .navigation {
+    display: inline-block;
+  }
+  footer .tos {
+    display: inline-block;
+  }
+}
