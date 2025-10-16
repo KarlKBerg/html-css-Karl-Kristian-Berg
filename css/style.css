@@ -267,6 +267,9 @@ footer span {
     font-size: 3.2rem;
     align-items: center;
   }
+  header .header-icons:hover {
+    cursor: pointer;
+  }
   .header-icons .shopping-bag {
     position: relative;
     display: inline-block;
