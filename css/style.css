@@ -455,16 +455,45 @@ footer span {
     height: 4rem;
   }
   /*FOOTER*/
+  footer {
+    margin-top: 8rem;
+  }
+  .footer-text {
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    margin: 4rem 0;
+  }
   footer img {
     display: block;
     width: 251px;
     height: 135px;
+    margin: 4rem 4rem;
   }
   footer .navigation {
     display: inline-block;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .navigation h2 {
+    text-align: left;
+  }
+  footer a {
+    font-size: 1.8rem;
   }
   footer .tos {
     display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  footer .tos h2 {
+    text-align: left;
+  }
+  .contact {
+    margin: 0;
   }
 }
 @media screen and (min-width: 1920px) {
