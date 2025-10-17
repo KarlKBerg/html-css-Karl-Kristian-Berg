@@ -7,6 +7,7 @@
 body {
   font-family: var(--font-text);
   background-color: #f2f2f2;
+  overflow-x: hidden;
 }
 header {
   display: flex;
@@ -63,9 +64,12 @@ nav {
   background-image: url(../images/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  width: 100%;
+  height: auto;
   z-index: 1;
   transform: rotate();
+  width: 100%;
+  display: flex;
 }
 .hero::before {
   content: "";
@@ -80,11 +84,17 @@ nav {
 }
 .hero h1 {
   font-size: 3.6rem;
-  padding: 4.8rem 0.8rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.8rem;
+  padding: 4rem 0;
   z-index: 2;
   color: white;
   font-family: var(--font-bold);
   font-weight: 900;
+}
+.hero .bigger-screen {
+  display: none;
 }
 /*New arrivals*/
 .products-display {
@@ -242,6 +252,22 @@ footer span {
   justify-content: space-between;
 }
 /*Media queries*/
+@media screen and (min-width: 600px) {
+  .hero {
+    min-height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 3.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.8rem;
+    z-index: 2;
+    color: white;
+    font-family: var(--font-bold);
+    font-weight: 900;
+  }
+}
 @media screen and (min-width: 800px) {
   /*HEADER*/
   header {
@@ -297,18 +323,67 @@ footer span {
   header .hamburger-menu {
     display: none;
   }
+  /*HERO*/
+  .hero .smaller-screen {
+    display: none;
+  }
+  .hero .bigger-screen {
+    display: inline-block;
+  }
+  .hero .bigger-screen h1 {
+    padding-top: 4rem;
+    padding-bottom: 0.8rem;
+    margin-left: 1.6rem;
+  }
+  .hero .bigger-screen p {
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 117%;
+  }
+  .hero .bigger-screen button {
+    font-size: 1.8rem;
+    background-color: #deb569;
+    border-radius: 1.5rem;
+    padding: 0.5rem 3rem;
+    margin: 1.6rem 1.6rem;
+  }
 }
 @media screen and (min-width: 1200px) {
   /*HEADER*/
   header nav ul {
     display: flex;
     gap: 7.2rem;
+    font-size: 2.4rem;
   }
   header .header-icons {
     gap: 2.4rem;
   }
   .popular-products {
     display: inline-block;
+  }
+  /*HERO*/
+  .hero {
+    height: 100vh;
+  }
+  .hero .bigger-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -200px;
+    margin-left: 100px;
+  }
+  .hero .bigger-screen h1 {
+    font-size: 6.4rem;
+  }
+  .hero .bigger-screen p {
+    font-size: 3.2rem;
+  }
+  .hero .bigger-screen button {
+    font-size: 3.2rem;
+    width: 300px;
   }
   /*FOOTER*/
   footer img {
@@ -321,5 +396,11 @@ footer span {
   }
   footer .tos {
     display: inline-block;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero .bigger-screen {
+    margin-top: -300px;
+    margin-left: 200px;
   }
 }
