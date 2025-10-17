@@ -192,6 +192,9 @@ nav {
   background-color: #f0d093;
   cursor: pointer;
 }
+section #popular-products {
+  display: none;
+}
 /*Footer*/
 footer {
   position: relative;
@@ -303,6 +306,9 @@ footer span {
   }
   header .header-icons {
     gap: 2.4rem;
+  }
+  .popular-products {
+    display: inline-block;
   }
   /*FOOTER*/
   footer img {
