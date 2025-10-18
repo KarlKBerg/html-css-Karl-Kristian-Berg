@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Forum&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>RainyDays | Home</title>
+    <title>RainyDays | Products</title>
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/media-queries.css" />
@@ -58,313 +58,34 @@
     </header>
 
     <main>
-      <!--Hero image + text-->
-      <section class="hero">
-        <div class="smaller-screen">
-          <h1>Pushing <br />the <br />comfort <br />zone</h1>
-        </div>
-
-        <div class="bigger-screen">
-          <h1>Pushing the comfort <br />zone</h1>
-          <p>
-            Stay dry. Stay comfortable. Our jackets <br />are built for every
-            adventure, from <br />city streets to mountain peaks.
-          </p>
-          <button>Shop now</button>
-        </div>
-      </section>
+        <!--Breadcrumbs-->
+        <section class="breadcrumbs">
+            <a href="index.html">Home</a>
+            <p>/</p>
+            <a href="products.html" class="active">Products</a>
+        </section>
+        <!--Page description-->
+        <section class="page-description">
+            <p>Explore our full collection of Rainy Days jackets. From lightweight shells to insulated parkas, every jacket is designed for comfort, durability, and all kinds of weather.</p>
+        </section>
       <!--Products display popular-->
       <section class="products-display" id="popular-products">
         <div class="display-heading">
-          <h2>Popular now</h2>
-          <div class="see-all-button">
-            <a href="/product-pages/popular-products.html">See all</a>
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
+          <h2>All products (7)</h2>
         </div>
         <hr />
-        <!--Popular carousel & cards-->
-        <div class="carousel-container">
-          <div class="cards-container">
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket1.jpg"
-                alt="Stormbreaker jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Stormbreaker</h3>
-                <div class="buy-info">
-                  <h4>$149.99</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket2.jpg"
-                alt="Scott Breather jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Scott Breather</h3>
-                <div class="buy-info">
-                  <h4>$109.00</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket3.jpg"
-                alt="Standard Softshell jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Standard Softshell</h3>
-                <div class="buy-info">
-                  <h4>$89.99</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket4.jpg"
-                alt="Scott Windrunner jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Scott Windrunner</h3>
-                <div class="buy-info">
-                  <h4>$129.00</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket7.jpg"
-                alt="Standard Fleece jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Standard Fleece</h3>
-                <div class="buy-info">
-                  <h4>$99.00</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="category-navigation">
+            <a href="products.html" class="active">All</a>
+            <a href="/product-pages/new-products.html">New</a>
+            <a href="/product-pages/popular-products.html">Popular</a>
+            <a href="/product-pages/products-on-sale.html">Sale</a>
         </div>
-      </section>
-      <!--Products display new arrivals-->
-      <section class="products-display new-arrivals">
-        <div class="display-heading">
-          <h2>New arrivals</h2>
-          <div class="see-all-button">
-            <a href="/product-pages/new-products.html">See all</a>
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-        <hr />
-        <!--New arrivals carousel & cards-->
-        <div class="carousel-container">
-          <div class="cards-container">
+        </section>
+        <!--Products-->
+        <section class="products-container">
             <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket1.jpg"
-                alt="Stormbreaker jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Stormbreaker</h3>
-                <div class="buy-info">
-                  <h4>$149.99</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket2.jpg"
-                alt="Scott Breather jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Scott Breather</h3>
-                <div class="buy-info">
-                  <h4>$109.00</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket3.jpg"
-                alt="Standard Softshell jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Standard Softshell</h3>
-                <div class="buy-info">
-                  <h4>$89.99</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket4.jpg"
-                alt="Scott Windrunner jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Scott Windrunner</h3>
-                <div class="buy-info">
-                  <h4>$129.00</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-            <!--CARD-->
-            <div class="card">
-              <img
-                src="/images/product-images/RainyDays_Jacket7.jpg"
-                alt="Standard Fleece jacket"
-              />
-              <i class="fa-regular fa-heart" id="heart"></i>
-              <div class="product-info">
-                <div class="category-rating-container">
-                  <p>Men's</p>
-                  <div class="rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <p class="fa-star">(40)</p>
-                  </div>
-                </div>
-                <h3>Standard Fleece</h3>
-                <div class="buy-info">
-                  <h4>$99.00</h4>
-                  <button>Buy now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            
+        </section>
     </main>
     <footer>
       <img src="/images/RainyDays_Logo.png" alt="Rainy days logo" />

@@ -107,7 +107,7 @@ nav {
 }
 .products-display h2 {
   font-family: var(--font-bold);
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 .see-all-button {
@@ -119,6 +119,42 @@ nav {
 }
 .products-display hr {
   margin: 0 0.8rem;
+}
+/*Popular products*/
+/*Breadcrumbs*/
+.breadcrumbs {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 1.4em;
+  margin: 0.8rem 0.8rem;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+.breadcrumbs .active {
+  text-decoration: underline;
+}
+/*Page description*/
+.page-description {
+  margin: 0.8rem 0.8rem;
+  font-size: 1.4rem;
+  font-family: var(--font-bold);
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+/*Category navigation*/
+.category-navigation {
+  margin: 0.8rem 0.8rem;
+  font-family: var(--font-bold);
+  font-weight: 600;
+  display: flex;
+  gap: 0.8rem;
+}
+.category-navigation a:hover {
+  text-decoration: underline;
+}
+.category-navigation a.active {
+  text-decoration: underline;
 }
 /*Card container*/
 .carousel-container {
