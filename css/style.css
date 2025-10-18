@@ -96,7 +96,7 @@ nav {
 .hero .bigger-screen {
   display: none;
 }
-/*New arrivals*/
+/*Product displays*/
 .products-display {
   margin-top: 1.6rem;
 }
@@ -202,9 +202,6 @@ nav {
   background-color: #f0d093;
   cursor: pointer;
 }
-section #popular-products {
-  display: none;
-}
 /*Footer*/
 footer {
   position: relative;
@@ -285,8 +282,10 @@ footer span {
     display: flex;
     gap: 5.6rem;
   }
-  header nav .active,
-  nav a:hover {
+  header nav .active {
+    text-decoration: underline;
+  }
+  nav ul li a:hover {
     text-decoration: underline;
   }
   header .header-icons {
@@ -394,18 +393,17 @@ footer span {
   header .header-icons {
     gap: 2.4rem;
   }
-  .popular-products {
-    display: inline-block;
-  }
   /*HERO*/
   .hero {
     height: 100vh;
+    position: relative;
   }
   .hero .bigger-screen {
+    position: absolute;
+    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -200px;
     margin-left: 100px;
   }
   .hero .bigger-screen h1 {
@@ -444,12 +442,19 @@ footer span {
     margin-right: 4rem;
     margin-top: 4rem;
   }
+  .rating {
+    margin-top: 1.6rem;
+  }
+  #category {
+    margin-top: 1.6rem;
+  }
   .card img {
     width: 30rem;
     height: 36rem;
   }
   .card h3 {
     font-size: 3.2rem;
+    margin-top: 1.6rem;
   }
   .card .buy-info h4 {
     font-size: 3.2rem;
