@@ -157,6 +157,12 @@ nav {
 .category-navigation a.active {
   text-decoration: underline;
 }
+.products-container h3 {
+  font-size: 2.4rem;
+  font-family: var(--font-text);
+  padding-bottom: 200px;
+  margin-top: 1.8rem;
+}
 /*Products container*/
 .products-container {
   display: flex;
@@ -249,13 +255,14 @@ nav {
 }
 /*Footer*/
 footer {
-  position: relative;
+  position: fixed;
   width: 100%;
   bottom: 0;
   margin-top: 2.4rem;
   background-color: #aeb7bf;
   min-height: 16rem;
   display: flex;
+  justify-content: center;
   font-family: var(--font-bold);
 }
 footer img {
@@ -494,6 +501,11 @@ footer span {
   }
   #products-heading {
     margin-top: -5.6rem;
+  }
+  .products-container h3 {
+    font-size: 3.2rem;
+    margin-top: 4rem;
+    padding-bottom: 1000px;
   }
   /*Category navigation*/
   .category-navigation {
