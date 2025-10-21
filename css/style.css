@@ -97,13 +97,22 @@ nav {
   display: none;
 }
 /*Mobile menu*/
-.mobile-menu-main {
+.mobile-menu-body {
   background-color: #aeb7bf;
+  color: black;
 }
-header .mobile-menu-header i {
+.mobile-menu-header a {
   font-size: 2.4rem;
   display: flex;
-  justify-items: center;
+  align-items: center;
+}
+.mobile-menu-main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  font-size: 3.2rem;
+  margin-top: 4rem;
 }
 /*Product displays*/
 .products-display {
