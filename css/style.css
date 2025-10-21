@@ -148,7 +148,7 @@ nav {
 }
 .products-display .display-heading {
   display: flex;
-  padding: 0.8rem 0rem;
+  padding: 0.8rem 0.8rem;
   justify-content: space-between;
 }
 .products-display h2 {
@@ -162,6 +162,9 @@ nav {
   display: flex;
   align-items: center;
   margin-right: 0.8rem;
+}
+.products-display hr {
+  margin: 0 0.8rem;
 }
 /*Breadcrumbs*/
 .breadcrumbs {
@@ -187,7 +190,7 @@ nav {
 }
 /*Category navigation*/
 .category-navigation {
-  margin: 0.8rem 0rem;
+  margin: 0.8rem 0.8rem;
   font-family: var(--font-bold);
   font-weight: 600;
   display: flex;
