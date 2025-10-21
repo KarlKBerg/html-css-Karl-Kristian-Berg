@@ -277,6 +277,7 @@
   /*FOOTER*/
   footer {
     margin-top: 8rem;
+    min-height: 20rem;
   }
   .footer-text {
     display: flex;
@@ -284,7 +285,6 @@
     width: 100%;
     justify-content: flex-end;
     padding-right: 4rem;
-    margin: 4rem 0;
   }
   footer img {
     display: block;
