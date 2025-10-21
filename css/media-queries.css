@@ -1,0 +1,327 @@
+/*Media queries*/
+@media screen and (min-width: 600px) {
+  .hero {
+    min-height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 3.6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.8rem;
+    z-index: 2;
+    color: white;
+    font-family: var(--font-bold);
+    font-weight: 900;
+  }
+}
+@media screen and (min-width: 800px) {
+  /*HEADER*/
+  header {
+    padding: 2.4rem 2.4rem;
+  }
+  header nav {
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: var(--font-bold);
+    font-weight: 700;
+  }
+  header nav ul {
+    display: flex;
+    gap: 5.6rem;
+  }
+  header nav .active {
+    text-decoration: underline;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  header .header-icons {
+    display: inline-block;
+    display: flex;
+    gap: 1.6rem;
+    font-size: 2.4rem;
+    align-items: center;
+  }
+  header .header-icons:hover {
+    cursor: pointer;
+  }
+  .header-icons .shopping-bag {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+  }
+  .header-icons .shopping-bag p {
+    position: absolute;
+    bottom: -4px;
+    right: -6px;
+    background-color: #00930f;
+    color: white;
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 1.6rem;
+  }
+  header .hamburger-menu {
+    display: none;
+  }
+  /*About-us*/
+  .about-us-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0.8rem 0;
+  }
+  /*HERO*/
+  .hero .smaller-screen {
+    display: none;
+  }
+  .hero .bigger-screen {
+    display: inline-block;
+  }
+  .hero .bigger-screen h1 {
+    padding-top: 4rem;
+    padding-bottom: 0.8rem;
+    margin-left: 1.6rem;
+  }
+  .hero .bigger-screen p {
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 117%;
+  }
+  .hero .bigger-screen button {
+    font-size: 1.8rem;
+    background-color: #deb569;
+    border-radius: 1.5rem;
+    padding: 0.5rem 3rem;
+    margin: 1.6rem 1.6rem;
+  }
+  .hero .bigger-screen button:hover {
+    background-color: #f0d093;
+    cursor: pointer;
+  }
+  /*CARDS*/
+  .card {
+    width: 240px;
+    height: 370px;
+  }
+  .card img {
+    width: 20rem;
+    height: 24.2rem;
+  }
+  .card #heart {
+    font-size: 2.8rem;
+  }
+  .card h3 {
+    font-size: 2rem;
+  }
+  .card .buy-info h4 {
+    font-size: 2.4rem;
+  }
+  .card .fa-star {
+    font-size: 1.4rem;
+  }
+  .card p {
+    font-size: 2rem;
+  }
+  .card button {
+    font-size: 1.4rem;
+    width: 8rem;
+    height: 3rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*HEADER*/
+  header nav ul {
+    display: flex;
+    gap: 7.2rem;
+    font-size: 2.4rem;
+  }
+  header .header-icons {
+    gap: 2.4rem;
+  }
+  /*HERO*/
+  .hero {
+    height: 100vh;
+    position: relative;
+  }
+  .hero .bigger-screen {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .hero .bigger-screen h1 {
+    font-size: 6.4rem;
+  }
+  .hero .bigger-screen p {
+    font-size: 3.2rem;
+  }
+  .hero .bigger-screen button {
+    font-size: 3.2rem;
+    width: 300px;
+    height: 65px;
+    margin-top: 100px;
+  }
+  /*About us*/
+  .about-us-section h2 {
+    margin: 3.2rem 0;
+  }
+  .about-us-section .about-us-image {
+    display: block;
+    background-image: url(/images/about-us-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 60rem;
+    margin: 0 auto;
+  }
+  .about-us-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 3.2rem;
+    padding: 3.2rem 0;
+    line-height: 117.333%;
+    letter-spacing: -0.96px;
+  }
+  /*Section headings*/
+  .carousel-container {
+    padding-bottom: 1rem;
+  }
+  .products-display {
+    margin-left: 18rem;
+    margin-right: 2.4rem;
+  }
+  .display-heading {
+    margin-top: 8rem;
+  }
+  .display-heading h2 {
+    font-size: 4rem;
+  }
+  .display-heading .see-all-button {
+    font-size: 2.4rem;
+  }
+  /*Breadcrumbs*/
+  .breadcrumbs {
+    font-size: 2.4em;
+    margin-left: 18rem;
+    margin-top: 4.8rem;
+  }
+  /*Page description*/
+  .page-description {
+    margin-left: 18rem;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+  }
+  #products-heading {
+    margin-top: -5.6rem;
+  }
+  .products-container h3 {
+    font-size: 3.2rem;
+    margin-top: 4rem;
+  }
+  /*Category navigation*/
+  .category-navigation {
+    font-size: 2.4rem;
+    gap: 3.2rem;
+  }
+  /*Products container*/
+  .products-container {
+    gap: 2.4rem;
+    margin-left: 18rem;
+  }
+  /*CARDS*/
+  .card {
+    width: 370px;
+    height: 570px;
+    margin-right: 4rem;
+    margin-top: 4rem;
+  }
+  .rating {
+    margin-top: 1.6rem;
+  }
+  #category {
+    margin-top: 1.6rem;
+  }
+  .card img {
+    width: 30rem;
+    height: 36rem;
+  }
+  .card h3 {
+    font-size: 3.2rem;
+    margin-top: 1.6rem;
+  }
+  .card .buy-info h4 {
+    font-size: 3.2rem;
+  }
+  .card .fa-star {
+    font-size: 1.4rem;
+  }
+  .card button {
+    font-size: 2.4rem;
+    width: 11rem;
+    height: 4rem;
+  }
+  /*FOOTER*/
+  footer {
+    margin-top: 8rem;
+  }
+  .footer-text {
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    margin: 4rem 0;
+  }
+  footer img {
+    display: block;
+    width: 251px;
+    height: 135px;
+    margin: 4rem 4rem;
+  }
+  footer .navigation {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  footer .navigation h2 {
+    text-align: left;
+  }
+  footer a {
+    font-size: 1.8rem;
+  }
+  footer .tos {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1.2rem;
+  }
+  footer .tos h2 {
+    text-align: left;
+  }
+  .contact {
+    margin: 0;
+    gap: 1.2rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero .bigger-screen {
+    margin-top: -300px;
+    margin-left: 200px;
+  }
+}
