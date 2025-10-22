@@ -242,7 +242,7 @@ nav {
 .back-to-home h3 {
   margin: 0;
 }
-.back-to-home:hover {
+.order-confirmation-section a:hover {
   cursor: pointer;
   color: #2e2e2e;
 }
