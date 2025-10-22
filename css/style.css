@@ -253,6 +253,7 @@ nav {
   border-radius: 1.5rem;
   padding: 2rem;
   gap: 2.4rem;
+  margin-top: 0.8rem;
 }
 .order-summary h3 {
   font-size: 1.8rem;

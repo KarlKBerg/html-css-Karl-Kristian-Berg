@@ -138,6 +138,15 @@
     width: 8rem;
     height: 3rem;
   }
+  .confirmation-image {
+    height: 300px;
+  }
+  .order-cost p {
+    font-size: 1.6rem;
+  }
+  .order-cost h4 {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (min-width: 1200px) {
   /*HEADER*/
