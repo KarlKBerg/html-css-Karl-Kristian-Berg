@@ -328,6 +328,11 @@
   .product-info-section {
     margin: 3.2rem 18rem;
   }
+  .small-product-images {
+    width: 14rem;
+    height: auto;
+    justify-content: flex-start;
+  }
   #product-info-name {
     font-size: 4.8rem;
   }
