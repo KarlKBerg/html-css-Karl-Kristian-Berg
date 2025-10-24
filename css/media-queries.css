@@ -77,6 +77,17 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 0.8rem 0;
+    font-size: 1.8rem;
+  }
+  .about-us-section .about-us-image {
+    display: block;
+    background-image: url(/images/about-us-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 40rem;
+    margin: 0 auto;
   }
   /*HERO*/
   .hero .smaller-screen {
@@ -169,11 +180,6 @@
   }
   .order-summary h3 {
     font-size: 2.4rem;
-  }
-}
-@media screen and (min-width: 1000px) {
-  main {
-    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
