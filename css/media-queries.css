@@ -109,6 +109,19 @@
     background-color: #f0d093;
     cursor: pointer;
   }
+  /*Product info*/
+  .product-info-section {
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+  .product-info-images {
+    flex-direction: row-reverse;
+    margin: 0 0.8rem;
+  }
+  .small-product-images {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
   /*CARDS*/
   .card {
     width: 240px;
