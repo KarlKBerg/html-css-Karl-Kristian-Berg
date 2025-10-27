@@ -57,21 +57,21 @@
       </div>
     </header>
 
-    <main>
-        <h2 id="title ">Checkout</h2>
+    <main id="checkout">
+        <h2 class="title">Checkout</h2>
         <section id="product-overview">
             <h3>Product</h3>
             <hr>
             <div class="product-summary">
-                <img src="/images/product-images/RainyDays_Jacket1.jpg" alt="Standard fleece jacket">
+                <img src="/images/product-images/RainyDays_Jacket7.jpg" alt="Standard fleece jacket">
                 <div class="product-details">
                     <h3 id="product-name">Standard Fleece</h3>
                     <p class="product-summary-info">Size: S</p>
                     <p class="product-summary-info">Available: (10)</p>
                     <div class="product-amount">
-                        <p class="amount-button">-</p>
+                        <i class="fa-solid fa-circle-minus"></i>
                         <h4>1</h4>
-                        <p class="amount-button">+</p>
+                        <i class="fa-solid fa-circle-plus"></i>
                     </div>
                     <div class="price-and-remove">
                         <h3>$99.00</h3>
@@ -84,48 +84,54 @@
         <section id="discount-code-and-total">
             <div class="discount-code">
                 <div class="card-header">
-                    <p>Add discount-code</p>
+                    <p>Add discount code</p>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <hr>
+                <div class="divider"></div>
                 <div class="card-body">
                     <input type="text" placeholder="Enter your code here">
                 </div>
             </div>
             <h3>Total: $99.00</h3>
-            <hr>
+
         </section>
+        <hr>
         <section id="member">
-            <hr>
+            
             <h3>Continue as member?</h3>
-            <p>Please <span id="login">Log in</span></p>
+            <p>Please <a href="pop-ups/login.html" id="login">Log in</a></p>
         </section>
         <div class="payment-and-details">
             <section id="payment-information" class="form">
                 <h3 class="heading">Payment information</h3>
                 <div class="payment-item">
-                    <h3 id="icon">K.</h3>
-                    <h4>Klarna</h4>
+                    <div class="payment-item-left">
+                        <h3 id="icon">K.</h3>
+                        <h4>Klarna</h4>
+                    </div>
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
                 <div class="payment-item">
-                    <i class="fa-solid fa-credit-card"></i>
-                    <h4>Visa/Mastercard</h4>
+                    <div class="payment-item-left">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h4>Visa/Mastercard</h4>
+                    </div>
                     <i class="fa-solid fa-chevron-up"></i>
-                    <hr>
+                </div>
+                <div class="payment-form">
                     <!--Card number-->
                     <div class="form-container">
                         <label for="card-number">Card number *</label>
                         <div class="form-item">
-                            <input type="number" id="card-number" name="card-number" placeholder="1234 5678 9123 4567">
+                            <input type="number" id="card-number" name="card-number" placeholder="">
                             <i class="fa-solid fa-credit-card"></i>
                         </div>
                     </div>
                     <!--Cardholder name-->
                     <div class="form-container">
-                        <label for="card-name">Card number *</label>
+                        <label for="card-name">Cardholder name *</label>
                         <div class="form-item">
-                            <input type="text" id="card-name" name="card-name" placeholder="1234 5678 9123 4567">
+                            <input type="text" id="card-name" name="card-name" placeholder="">
                             <i class="fa-solid fa-user"></i>
                         </div>
                     </div>
@@ -133,11 +139,11 @@
                     <div class="form-container">
                         <label for="experation-date">Experation date *</label>
                         <div class="form-row">
-                            <div class="form-item half-width">
+                            <div class="form-item half-width chevron-right">
                                 <input type="number" id="experation-date" name="experation-date" placeholder="01">
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
-                            <div class="form-item half-width">
+                            <div class="form-item half-width chevron-right">
                                 <input type="number" id="experation-date" name="experation-date" placeholder="2025">
                                 <i class="fa-solid fa-chevron-down"></i>
                             </div>
@@ -154,7 +160,7 @@
                             <i class="fa-solid fa-credit-card"></i>
                         </div>
                     </div>
-                </div>
+                    </div>
             </section>
             <section id="details">
                 <h3 class="heading">Details</h3>
@@ -168,7 +174,7 @@
                         <h3 class="detail-price">Free</h3>
                     </div>
                     <div class="detail-item">
-                        <h3 class="detail-heading">Duties & Taxes</h3>
+                        <h3 class="detail-heading">Taxes</h3>
                         <h3 class="detail-price">$0.99</h3>
                     </div>
                     <hr>
