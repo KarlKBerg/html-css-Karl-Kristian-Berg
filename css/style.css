@@ -564,8 +564,17 @@ input {
   border-radius: 0.8rem;
   padding: 0.8rem;
 }
-.form {
+.detail-item {
   background-color: #aeb7bf;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+}
+.form-container {
+  background-color: #aeb7bf;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+}
+.form {
   border-radius: 0.8rem;
   padding: 0.8rem;
 }
@@ -648,8 +657,6 @@ input {
 .shippment-time,
 .shippment-provider {
   font-size: 1.4rem;
-}
-.shippment-provider {
 }
 .shippment-price {
   font-size: 1.4rem;
