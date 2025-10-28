@@ -132,6 +132,16 @@
     flex-direction: column;
     gap: 1.6rem;
   }
+  /*Checkout page*/
+  .payment-and-details {
+    flex-direction: row;
+  }
+  .information-container {
+    min-width: 40rem;
+  }
+  #details {
+    min-width: 30rem;
+  }
   /*CARDS*/
   .card {
     width: 240px;
@@ -357,6 +367,39 @@
   }
   #add-to-bag-button {
     font-size: 3.2rem;
+  }
+  /*Checkout page*/
+  #checkout {
+    margin: 0 18rem;
+  }
+  .information-container {
+    max-width: 60rem;
+  }
+  #details {
+    max-width: 45rem;
+  }
+  #checkout h3,
+  #checkout h4 {
+    font-size: 2.4rem;
+  }
+  #checkout label {
+    font-size: 1.8rem;
+  }
+  #checkout p {
+    font-size: 2rem;
+  }
+  .product-amount {
+    font-size: 3.2rem;
+  }
+  #checkout i {
+    font-size: 2rem;
+  }
+  #checkout input {
+    height: 3rem;
+  }
+  .payment-item-left {
+    display: flex;
+    align-items: center;
   }
 
   /*CARDS*/
