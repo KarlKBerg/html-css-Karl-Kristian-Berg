@@ -445,6 +445,9 @@ nav {
 }
 /*Checkout*/
 #checkout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
   margin: 0 0.8rem;
 }
 .title {
@@ -505,7 +508,6 @@ hr {
   background-color: #aeb7bf;
   border-radius: 1.5rem;
   padding: 0.8rem;
-  width: 200px;
 }
 .divider {
   background-color: #f2f2f2;
@@ -544,6 +546,7 @@ input {
 .payment-and-details {
   display: flex;
   justify-content: space-between;
+  gap: 0.8rem;
   margin: 1.6rem 0;
 }
 .heading {
@@ -555,7 +558,6 @@ input {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  max-width: 200px;
 }
 .payment-item {
   background-color: #aeb7bf;
@@ -603,7 +605,6 @@ input {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  min-width: 150px;
   margin-top: 0.8rem;
 }
 .detail-heading {
@@ -631,6 +632,59 @@ input {
   height: 5.5rem;
   font-size: 1.6rem;
   border-radius: 1.5rem;
+}
+.shippment-item {
+  background-color: #aeb7bf;
+  margin: 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0.4rem;
+  border-radius: 1.5rem;
+}
+.shippment-name {
+  font-size: 1.8rem;
+}
+.shippment-time,
+.shippment-provider {
+  font-size: 1.4rem;
+}
+.shippment-provider {
+}
+.shippment-price {
+  font-size: 1.4rem;
+  font-family: var(--font-bold);
+  font-weight: 600;
+}
+.left-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.price-and-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.4rem;
+}
+.price-and-select i {
+  font-size: 1rem;
+  color: white;
+  background: #d9d9d9;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.price-and-select .selected {
+  color: #9bff74;
+}
+.right-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 /*Continue as member*/
 #member {
