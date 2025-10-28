@@ -562,6 +562,11 @@ input {
   border-radius: 0.8rem;
   padding: 0.8rem;
 }
+.form {
+  background-color: #aeb7bf;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+}
 .payment-item {
   display: flex;
   align-items: center;
@@ -641,6 +646,10 @@ input {
 }
 #member p a {
   text-decoration: underline;
+}
+.label-info {
+  display: flex;
+  gap: 0.8rem;
 }
 /*Cards*/
 .card {
