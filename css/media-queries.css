@@ -139,6 +139,9 @@
   .information-container {
     min-width: 40rem;
   }
+  .discount-code {
+    min-width: 40rem;
+  }
   #details {
     min-width: 30rem;
   }
@@ -374,6 +377,9 @@
   }
   .information-container {
     max-width: 60rem;
+  }
+  .discount-code {
+    min-width: 40rem;
   }
   #details {
     max-width: 45rem;
