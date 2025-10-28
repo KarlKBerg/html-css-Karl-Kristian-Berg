@@ -38,11 +38,13 @@
         </ul>
       </nav>
 
-      <div class="hamburger-menu"> 
-        <a href="/pop-ups/cart.html"><div class="shopping-bag"></a>
-          <i class="fa-solid fa-bag-shopping"></i>
-          <p>1</p>
-        </div>
+      <div class="hamburger-menu">
+        <a href="/pop-ups/cart.html"
+          ><div class="shopping-bag">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>1</p>
+          </div></a
+        >
         <a href="mobile-menu.html"><i class="fa-solid fa-bars"></i></a>
       </div>
 
@@ -51,239 +53,277 @@
         <a href="favorites.html"><i class="fa-regular fa-heart"></i></a>
         <a href="/pop-ups/login.html"><i class="fa-regular fa-user"></i></a>
         <div class="shopping-bag">
-          <a href="/pop-ups/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <a href="/pop-ups/cart.html"
+            ><i class="fa-solid fa-bag-shopping"></i
+          ></a>
           <p>1</p>
         </div>
       </div>
     </header>
 
     <main id="checkout">
-        <h2 class="title">Checkout</h2>
-        <section id="product-overview">
-            <h3>Product</h3>
-            <hr>
-            <div class="product-summary">
-                <img src="/images/product-images/RainyDays_Jacket7.jpg" alt="Standard fleece jacket">
-                <div class="product-details">
-                    <h3 id="product-name">Standard Fleece</h3>
-                    <p class="product-summary-info">Size: S</p>
-                    <p class="product-summary-info">Available: (10)</p>
-                    <div class="product-amount">
-                        <i class="fa-solid fa-circle-minus"></i>
-                        <h4>1</h4>
-                        <i class="fa-solid fa-circle-plus"></i>
-                    </div>
-                    <div class="price-and-remove">
-                        <h3>$99.00</h3>
-                        <p id="remove">Remove</p>
-                    </div>
-                </div>
+      <h2 class="title">Checkout</h2>
+      <section id="product-overview">
+        <h3>Product</h3>
+        <hr />
+        <div class="product-summary">
+          <img
+            src="/images/product-images/RainyDays_Jacket7.jpg"
+            alt="Standard fleece jacket"
+          />
+          <div class="product-details">
+            <h3 id="product-name">Standard Fleece</h3>
+            <p class="product-summary-info">Size: S</p>
+            <p class="product-summary-info">Available: (10)</p>
+            <div class="product-amount">
+              <i class="fa-solid fa-circle-minus"></i>
+              <h4>1</h4>
+              <i class="fa-solid fa-circle-plus"></i>
             </div>
-            <hr>
-        </section>
-        <section id="discount-code-and-total">
-            <div class="discount-code">
-                <div class="card-header">
-                    <p>Add discount code</p>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="divider"></div>
-                <div class="card-body">
-                    <input type="text" placeholder="Enter your code here">
-                </div>
+            <div class="price-and-remove">
+              <h3>$99.00</h3>
+              <p id="remove">Remove</p>
             </div>
-            <h3>Total: $99.00</h3>
-
-        </section>
-        <hr>
-        <section id="member">
-            
-            <h3>Continue as member?</h3>
-            <p>Please <a href="pop-ups/login.html" id="login">Log in</a></p>
-        </section>
-        <div class="payment-and-details">
-            <section id="payment-information" class="form">
-                <h3 class="heading">Payment information</h3>
-                <div class="payment-item">
-                    <div class="payment-item-left">
-                        <h3 id="icon">K.</h3>
-                        <h4>Klarna</h4>
-                    </div>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="payment-item">
-                    <div class="payment-item-left">
-                        <i class="fa-solid fa-credit-card"></i>
-                        <h4>Visa/Mastercard</h4>
-                    </div>
-                    <i class="fa-solid fa-chevron-up"></i>
-                </div>
-                <div class="payment-form">
-                    <!--Card number-->
-                    <div class="form-container">
-                        <label for="card-number">Card number *</label>
-                        <div class="form-item">
-                            <input type="number" id="card-number" name="card-number" placeholder="">
-                            <i class="fa-solid fa-credit-card"></i>
-                        </div>
-                    </div>
-                    <!--Cardholder name-->
-                    <div class="form-container">
-                        <label for="card-name">Cardholder name *</label>
-                        <div class="form-item">
-                            <input type="text" id="card-name" name="card-name" placeholder="">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-                    </div>
-                    <!--Expiry date-->
-                    <div class="form-container">
-                        <label for="experation-date">Experation date *</label>
-                        <div class="form-row">
-                            <div class="form-item half-width chevron-right">
-                                <input type="number" id="experation-date" name="experation-date" placeholder="01">
-                                <i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                            <div class="form-item half-width chevron-right">
-                                <input type="number" id="experation-date" name="experation-date" placeholder="2025">
-                                <i class="fa-solid fa-chevron-down"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!--CVV-->
-                    <div class="form-container">
-                        <div class="label-info">
-                            <label for="cvv">CVV *</label>
-                            <i class="fa-solid fa-circle-question"></i>
-                        </div>  
-                        <div class="form-item half-width">
-                            <input type="text" id="cvv" name="cvv" placeholder="">
-                            <i class="fa-solid fa-credit-card"></i>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="details">
-                <h3 class="heading">Details</h3>
-                <div class="details-container">
-                    <div class="detail-item">
-                        <h3 class="detail-heading">Subtotal</h3>
-                        <h3 class="detail-price">$99.00</h3>
-                    </div>
-                    <div class="detail-item">
-                        <h3 class="detail-heading">Shipping</h3>
-                        <h3 class="detail-price">Free</h3>
-                    </div>
-                    <div class="detail-item">
-                        <h3 class="detail-heading">Taxes</h3>
-                        <h3 class="detail-price">$0.99</h3>
-                    </div>
-                    <hr>
-                    <div class="detail-item total">
-                        <h3 class="detail-price">Total:</h3>
-                        <h3 class="detail-price">$99.99</h3>
-                    </div>
-                    <button id="confirm-purchase">
-                        <h3>Confirm</h3>
-                    </button>
-                </div>
-            </section>
+          </div>
         </div>
-        <section id="shippment-information" class="form">
-            <h3 class="heading">Shippment information</h3>
-            <div class="form-container">
-                <!--Full name-->
-                <label for="name">Name *</label>
+        <hr />
+      </section>
+      <section id="discount-code-and-total">
+        <div class="discount-code">
+          <div class="card-header">
+            <p>Add discount code</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="divider"></div>
+          <div class="card-body">
+            <input type="text" placeholder="Enter your code here" />
+          </div>
+        </div>
+        <h3>Total: $99.00</h3>
+      </section>
+      <hr />
+      <section id="member">
+        <h3>Continue as member?</h3>
+        <p>Please <a href="pop-ups/login.html" id="login">Log in</a></p>
+      </section>
+      <div class="payment-and-details">
+        <!--Payment info-->
+        <div class="information-container">
+          <section id="payment-information" class="form">
+            <h3 class="heading">Payment information</h3>
+            <div class="payment-item">
+              <div class="payment-item-left">
+                <h3 id="icon">K.</h3>
+                <h4>Klarna</h4>
+              </div>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="payment-item">
+              <div class="payment-item-left">
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>Visa/Mastercard</h4>
+              </div>
+              <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <form action="#" id="payment-form">
+              <!--Card number-->
+              <div class="form-container">
+                <label for="card-number">Card number *</label>
                 <div class="form-item">
-                    <input type="text" id="name" name="name">
-                    <i class="fa-solid fa-user"></i>
+                  <input
+                    type="number"
+                    id="card-number"
+                    name="card-number"
+                    placeholder=""
+                  />
+                  <i class="fa-solid fa-credit-card"></i>
                 </div>
-                <!--Phone-->
-                <label for="phone">Name *</label>
+              </div>
+              <!--Cardholder name-->
+              <div class="form-container">
+                <label for="card-name">Cardholder name *</label>
                 <div class="form-item">
-                    <input type="number" id="phone" name="phone">
-                    <i class="fa-solid fa-mobile"></i>
+                  <input
+                    type="text"
+                    id="card-name"
+                    name="card-name"
+                    placeholder=""
+                  />
+                  <i class="fa-solid fa-user"></i>
                 </div>
-                <!--Email-->
-                <label for="email">Email *</label>
-                <div class="form-item">
-                    <input type="email" id="email" name="email">
-                    <i class="fa-solid fa-envelope"></i>
+              </div>
+              <!--Expiry date-->
+              <div class="form-container">
+                <label for="experation-date">Experation date *</label>
+                <div class="form-row">
+                  <div class="half-width chevron-right">
+                    <input
+                      type="number"
+                      id="experation-date"
+                      name="experation-date"
+                      placeholder="01"
+                    />
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </div>
+                  <div class="half-width chevron-right">
+                    <input
+                      type="number"
+                      id="experation-date"
+                      name="experation-date"
+                      placeholder="2025"
+                    />
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </div>
                 </div>
-                <!--Street address-->
+              </div>
+              <!--CVV-->
+              <div class="form-container">
                 <div class="label-info">
-                    <label for="street-address">Street address *</label>
-                    <i class="fa-solid fa-circle-question"></i>
-                </div>  
-                <div class="form-item">
-                    <input type="text" id="street-address" name="street-address" placeholder="">
-                    <i class="fa-solid fa-house"></i>
+                  <label for="cvv">CVV *</label>
+                  <i class="fa-solid fa-circle-question"></i>
                 </div>
+                <div class="form-item half-width">
+                  <input type="text" id="cvv" name="cvv" placeholder="" />
+                  <i class="fa-solid fa-credit-card"></i>
+                </div>
+              </div>
+            </form>
+          </section>
+          <!--Shippment-info-->
+          <section id="shippment-information" class="form">
+            <h3 class="heading">Shippment information</h3>
+            <form action="#" id="shipping-form">
+              <!--Full name-->
+              <label for="name">Name *</label>
+              <div class="form-item">
+                <input type="text" id="name" name="name" />
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <!--Phone-->
+              <label for="phone">Phone *</label>
+              <div class="form-item">
+                <input type="number" id="phone" name="phone" />
+                <i class="fa-solid fa-mobile"></i>
+              </div>
+              <!--Email-->
+              <label for="email">Email *</label>
+              <div class="form-item">
+                <input type="email" id="email" name="email" />
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <!--Street address-->
+              <div class="label-info">
+                <label for="street-address">Street address *</label>
+                <i class="fa-solid fa-circle-question"></i>
+              </div>
+              <div class="form-item">
+                <input
+                  type="text"
+                  id="street-address"
+                  name="street-address"
+                  placeholder=""
+                />
+                <i class="fa-solid fa-house"></i>
+              </div>
 
-                <!--Building number-->
-                <div class="side-by-side">
-                    <div class="label-info">
-                        <label for="building-nr">Apt, Suite, Building nr</label>
-                        <i class="fa-solid fa-circle-question"></i>
-                    </div>  
-                    <div class="form-item half-width">
-                        <input type="number" id="building-nr" name="building-nr" placeholder="">
-                        <i class="fa-solid fa-building"></i>
-                    </div>
-                    <!--Zip code-->
-                    <label for="zip">Zip code *</label>
-                    <div class="form-item half-width">
-                        <input type="number" id="zip" name="zip">
-                        <i class="fa-solid fa-house-user"></i>
-                    </div>
+              <!--Building number-->
+              <div class="label-info">
+                <label for="building-nr">Building nr & zip code</label>
+                <i class="fa-solid fa-circle-question"></i>
+              </div>
+              <div class="side-by-side">
+                <div class="form-item half-width">
+                  <input
+                    type="number"
+                    id="building-nr"
+                    name="building-nr"
+                    placeholder=""
+                  />
+                  <i class="fa-solid fa-building"></i>
                 </div>
-            </div>
-        </section>
-        <section id="shippment-service">
+                <!--Zip code-->
+                <div class="form-item half-width">
+                  <input type="number" id="zip" name="zip" />
+                  <i class="fa-solid fa-house-user"></i>
+                </div>
+              </div>
+            </form>
+          </section>
+          <!--Shippment service-->
+          <section id="shippment-service">
             <h3 class="heading">Shippment service</h3>
-            <!--Free-shipping-->
-            <div class="shippment-item">
+            <div class="form-container">
+              <!--Free-shipping-->
+              <div class="shippment-item">
                 <div class="left-items">
-                    <h3 class="shippment-name">Free shipping</h3>
-                    <p class="shippment-time">5-7 business days</p>
+                  <h3 class="shippment-name">Free shipping</h3>
+                  <p class="shippment-time">5-7 business days</p>
                 </div>
                 <div class="right-items">
-                    <div class="price-and-select">
-                        <h3 class="shippment-price">$0</h3>
-                        <i class="fa-solid fa-circle selected"></i>
-                    </div>
-                    <p class="shippment-provider">Posten/Bring</p>
+                  <div class="price-and-select">
+                    <h3 class="shippment-price">$0</h3>
+                    <i class="fa-solid fa-circle selected"></i>
+                  </div>
+                  <p class="shippment-provider">Posten/Bring</p>
                 </div>
-            </div>
-            <!--Express shipping-->
-            <div class="shippment-item">
+              </div>
+              <!--Express shipping-->
+              <div class="shippment-item">
                 <div class="left-items">
-                    <h3 class="shippment-name">Express shipping</h3>
-                    <p class="shippment-time">2-3 business days</p>
+                  <h3 class="shippment-name">Express shipping</h3>
+                  <p class="shippment-time">2-3 business days</p>
                 </div>
                 <div class="right-items">
-                    <div class="price-and-select">
-                        <h3 class="shippment-price">$7.99</h3>
-                        <i class="fa-solid fa-circle"></i>
-                    </div>
-                    <p class="shippment-provider">Posten/Bring</p>
+                  <div class="price-and-select">
+                    <h3 class="shippment-price">$7.99</h3>
+                    <i class="fa-solid fa-circle"></i>
+                  </div>
+                  <p class="shippment-provider">Posten/Bring</p>
                 </div>
-            </div>
-            <!--Same day delivery-->
-            <div class="shippment-item">
+              </div>
+              <!--Same day delivery-->
+              <div class="shippment-item">
                 <div class="left-items">
-                    <h3 class="shippment-name">Same day delivery</h3>
-                    <p class="shippment-time">Same day if possible</p>
+                  <h3 class="shippment-name">Same day delivery</h3>
+                  <p class="shippment-time">Same day if possible</p>
                 </div>
                 <div class="right-items">
-                    <div class="price-and-select">
-                        <h3 class="shippment-price">$12.99</h3>
-                        <i class="fa-solid fa-circle"></i>
-                    </div>
-                    <p class="shippment-provider">PostNord</p>
+                  <div class="price-and-select">
+                    <h3 class="shippment-price">$12.99</h3>
+                    <i class="fa-solid fa-circle"></i>
+                  </div>
+                  <p class="shippment-provider">PostNord</p>
                 </div>
+              </div>
             </div>
+          </section>
+        </div>
+        <section id="details">
+          <h3 class="heading">Details</h3>
+          <div class="details-container">
+            <div class="detail-item">
+              <h3 class="detail-heading">Subtotal</h3>
+              <h3 class="detail-price">$99.00</h3>
+            </div>
+            <div class="detail-item">
+              <h3 class="detail-heading">Shipping</h3>
+              <h3 class="detail-price">Free</h3>
+            </div>
+            <div class="detail-item">
+              <h3 class="detail-heading">Taxes</h3>
+              <h3 class="detail-price">$0.99</h3>
+            </div>
+            <hr />
+            <div class="detail-item total">
+              <h3 class="detail-price">Total:</h3>
+              <h3 class="detail-price">$99.99</h3>
+            </div>
+            <button id="confirm-purchase">
+              <h3>Confirm</h3>
+            </button>
+          </div>
         </section>
-        
+      </div>
     </main>
     <footer>
       <img src="/images/RainyDays_Logo.png" alt="Rainy days logo" />
