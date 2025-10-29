@@ -636,7 +636,10 @@ hr {
   display: flex;
   justify-content: center;
 }
-
+#confirm-purchase:hover {
+  background-color: #f0cf92;
+  cursor: pointer;
+}
 /*Details*/
 .details-container {
   border: 1px solid black;
