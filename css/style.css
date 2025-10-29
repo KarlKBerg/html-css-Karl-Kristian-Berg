@@ -529,7 +529,7 @@ hr {
   justify-content: space-between;
   gap: 0.8rem;
 }
-form {
+#checkout form {
   background-color: #aeb7bf;
   font-size: 1.4rem;
   padding: 0.8rem 0.8rem;
@@ -823,7 +823,7 @@ footer span {
   position: fixed;
   width: 100%;
   height: 100%;
-  margin: 0 0.8rem;
+  font-size: 1.4rem;
 }
 :target.popup-container {
   display: block;
@@ -832,8 +832,7 @@ footer span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8rem;
-  margin-top: 1.6rem;
+  margin: 1.6rem 0.8rem;
 }
 .popup-header h2 {
   font-size: 3.2rem;
@@ -843,15 +842,21 @@ footer span {
 .popup-header i {
   font-size: 2.4rem;
 }
+.popup-form {
+  margin: 0.8rem 0.8rem;
+  margin-top: 8rem;
+}
+.login-item {
+  margin: 1.6rem 0;
+}
 .popup-form label {
-  font-size: 1.4rem;
   margin-top: 1.6rem;
 }
 .popup-form input {
   background-color: white;
   width: 100%;
   border-radius: 1.5rem;
-  padding: 0.8rem;
+  padding: 0.8rem 0;
 }
 .login-item {
   position: relative;
@@ -862,3 +867,38 @@ footer span {
   left: 1rem;
   top: 0.8rem;
 }
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.8rem;
+  margin-bottom: 1.6rem;
+}
+.options a {
+  text-decoration: underline;
+}
+.remember-info {
+  display: flex;
+  gap: 0.8rem;
+}
+.send-btn {
+  background-color: #deb569;
+  width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  border-radius: 1.5rem;
+}
+.send-btn:hover {
+  background-color: #f0cf92;
+}
+#register-direct {
+  margin-top: 1.6rem;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+#reset-description {
+  margin: 0 0.8rem;
+}
+/*Cart-popup*/
