@@ -1,2 +1,2 @@
 # rainy-days
-Course assignment
+Course assignment for Rainy days website.
