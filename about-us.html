@@ -60,7 +60,132 @@
         </div>
       </div>
     </header>
-
+    <!--Login, register and forgot password-->
+    <div id="login" class="popup-container">
+      <div class="popup-header">
+        <h2>Login</h2>
+        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+      </div>
+      <form action="#" class="popup-form">
+        <label for="email">Email</label>
+        <div class="login-item">
+          <input type="email" id="email" name="email" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <label for="password">Password</label>
+        <div class="login-item">
+          <input type="password" id="password" name="password" />
+          <i class="fa-solid fa-key"></i>
+        </div>
+      </form>
+      <div class="options">
+        <div class="remember-info">
+          <input type="checkbox" />
+          <p>Remember me</p>
+        </div>
+        <a href="#forgot-password">Forgot password?</a>
+      </div>
+      <a href="#">
+        <div class="send-btn">
+          <h2>Login</h2>
+        </div>
+      </a>
+      <a href="#register" id="register-direct">Not a member? Register!</a>
+    </div>
+    <!--Register-->
+    <div id="register" class="popup-container">
+      <div class="popup-header">
+        <h2>Register</h2>
+        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+      </div>
+      <form action="#" class="popup-form">
+        <label for="email">Email</label>
+        <div class="login-item">
+          <input type="email" id="email" name="email" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <label for="password">Password</label>
+        <div class="login-item">
+          <input type="password" id="password" name="password" />
+          <i class="fa-solid fa-key"></i>
+        </div>
+        <label for="re-password">Re-enter assword</label>
+        <div class="login-item">
+          <input type="password" id="re-password" name="re-password" />
+          <i class="fa-solid fa-key"></i>
+        </div>
+      </form>
+      <div class="options">
+        <div class="remember-info">
+          <input type="checkbox" />
+          <p>I want to recieve special offers</p>
+        </div>
+      </div>
+      <a href="#">
+        <div class="send-btn">
+          <h2>Register</h2>
+        </div>
+      </a>
+    </div>
+    <!--Forgot password-->
+    <div id="forgot-password" class="popup-container">
+      <div class="popup-header">
+        <h2>Forgot password</h2>
+        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+      </div>
+      <p id="reset-description">
+        Enter your email to recieve a password reset link. Follow the
+        instructions in the email to reset your password
+      </p>
+      <form action="#" class="popup-form">
+        <label for="email">Email</label>
+        <div class="login-item">
+          <input type="email" id="email" name="email" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+      </form>
+      <a href="#">
+        <div class="send-btn">
+          <h2>Reset password</h2>
+        </div>
+      </a>
+    </div>
+    <!--Cart popup-->
+    <div id="cart-popup" class="cart">
+      <div class="popup-header">
+        <h2>Cart</h2>
+        <a href="#"><i class="fa-solid fa-xmark"></i></a>
+      </div>
+      <hr />
+      <div class="product-summary checkout-summary">
+        <img
+          src="/images/product-images/RainyDays_Jacket7.jpg"
+          alt="Standard fleece jacket"
+        />
+        <div class="product-details">
+          <h3 id="product-name">Standard Fleece</h3>
+          <p class="product-summary-info">Size: S</p>
+          <p class="product-summary-info">Available: (10)</p>
+          <div class="product-amount">
+            <i class="fa-solid fa-circle-minus"></i>
+            <h4>1</h4>
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <div class="price-and-remove">
+            <h3>$99.00</h3>
+            <p id="remove">Remove</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <a href="checkout.html">
+        <div class="btn-container">
+          <div class="checkout-btn">
+            <h2>Checkout</h2>
+          </div>
+        </div>
+      </a>
+    </div>
     <main>
       <!--Breadcrumbs-->
       <section class="breadcrumbs">

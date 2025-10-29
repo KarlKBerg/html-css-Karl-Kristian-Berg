@@ -925,12 +925,6 @@ footer span {
 .checkout-btn:hover {
   background-color: #f0cf92;
 }
-.cart-summary {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  background: red;
-}
 .btn-container {
   margin-top: 2g.6rem;
 }
