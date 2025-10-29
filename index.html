@@ -51,7 +51,7 @@
       <div class="header-icons">
         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
         <a href="favorites.html"><i class="fa-regular fa-heart"></i></a>
-        <a href="/pop-ups/login.html"><i class="fa-regular fa-user"></i></a>
+        <a href="#login"><i class="fa-regular fa-user"></i></a>
         <div class="shopping-bag">
           <a href="/pop-ups/cart.html"
             ><i class="fa-solid fa-bag-shopping"></i
@@ -60,7 +60,25 @@
         </div>
       </div>
     </header>
-
+    <!--Login, register and forgot password-->
+    <div id="login" class="popup-form">
+      <div class="popup-header">
+        <h2>Login</h2>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <form action="#">
+        <label for="email">email</label>
+        <div class="login-item">
+          <input type="email" id="email" name="email" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <label for="password">Password</label>
+        <div class="login-item">
+          <input type="password" id="password" name="password" />
+          <i class="fa-solid fa-key"></i>
+        </div>
+      </form>
+    </div>
     <main>
       <!--Hero image + text-->
       <section class="hero">

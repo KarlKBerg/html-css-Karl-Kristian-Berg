@@ -25,6 +25,36 @@
     <link rel="stylesheet" href="/css/media-queries.css" />
   </head>
   <body class="mobile-menu-body">
+    <!--Login, register and forgot password-->
+    <div id="login" class="popup-container">
+      <div class="popup-header">
+        <h2>Login</h2>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <form action="#" class="popup-form">
+        <label for="email">Email</label>
+        <div class="login-item">
+          <input type="email" id="email" name="email" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <label for="password">Password</label>
+        <div class="login-item">
+          <input type="password" id="password" name="password" />
+          <i class="fa-solid fa-key"></i>
+        </div>
+      </form>
+      <div class="options">
+        <div class="remember-info">
+          <input type="checkbox" />
+          <p>Remember me</p>
+        </div>
+        <a href="#forgot-password">Forgot password?</a>
+      </div>
+      <div class="send-btn">
+        <h2>Login</h2>
+      </div>
+      <a href="#register">Not a member? Register!</a>
+    </div>
     <header class="mobile-menu-header">
       <img src="/images/RainyDays_Logo.png" alt="Rain Days logo" />
       <a href="index.html"><i class="fa-solid fa-xmark"></i></a>
@@ -35,7 +65,7 @@
         <li><a href="products.html">Products</a></li>
         <li><a href="about-us.html">About</a></li>
         <li><a href="#">Search</a></li>
-        <li><a href="/pop-ups/login.html">Login</a></li>
+        <li><a href="#login">Login</a></li>
       </ul>
     </main>
   </body>
