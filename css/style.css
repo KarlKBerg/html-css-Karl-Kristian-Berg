@@ -928,3 +928,8 @@ footer span {
 .btn-container {
   margin-top: 2g.6rem;
 }
+#product-name,
+.price-and-remove h3 {
+  font-family: var(--font-bold);
+  font-weight: 600;
+}
