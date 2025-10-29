@@ -384,7 +384,7 @@
   #product-prize {
     margin: 3.2rem 0;
   }
-  .buy-product button {
+  .buy-product a {
     margin: 0.8rem 0;
     font-size: 3.2rem;
   }

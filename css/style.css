@@ -373,7 +373,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.buy-product button {
+.buy-product a {
   background-color: #deb569;
   width: 30rem;
   height: 5.5rem;
@@ -381,7 +381,7 @@ nav {
   border-radius: 1.5rem;
   margin: 0 auto;
 }
-.buy-product button:hover {
+.buy-product a:hover {
   background-color: #f0cf92;
   cursor: pointer;
 }
