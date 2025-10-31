@@ -659,7 +659,6 @@ hr {
   margin: 0 0.8rem;
 }
 .card .product-info .rating {
-  display: flex;
   align-items: center;
 }
 .card .product-info .fa-star {
@@ -679,8 +678,6 @@ hr {
   bottom: 0.8rem;
   left: 0.8rem;
   right: 0.8rem;
-  display: flex;
-  justify-content: space-between;
 }
 .card .buy-info h4 {
   font-size: 1.6rem;
