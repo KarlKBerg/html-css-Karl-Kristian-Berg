@@ -792,7 +792,6 @@ footer span {
   text-decoration: underline;
 }
 .remember-info {
-  display: flex;
   gap: 0.8rem;
 }
 .send-btn,
@@ -811,7 +810,6 @@ footer span {
 #register-direct {
   margin-top: 1.6rem;
   text-decoration: underline;
-  display: flex;
   justify-content: center;
 }
 #reset-description {
