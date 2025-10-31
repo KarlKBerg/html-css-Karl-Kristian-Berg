@@ -185,12 +185,12 @@
         </div>
       </a>
     </div>
-    <main id="checkout">
-      <h2 class="title">Checkout</h2>
+    <main id="checkout" class="flex">
+      <h2 class="title flex">Checkout</h2>
       <section id="product-overview">
         <h3>Product</h3>
         <hr />
-        <div class="product-summary">
+        <div class="product-summary flex">
           <img
             src="images/product-images/RainyDays_Jacket7.jpg"
             alt="Standard fleece jacket"
@@ -204,7 +204,7 @@
               <h4>1</h4>
               <i class="fa-solid fa-circle-plus"></i>
             </div>
-            <div class="price-and-remove">
+            <div class="price-and-remove flex flex-between">
               <h3>$99.00</h3>
               <p id="remove">Remove</p>
             </div>
@@ -212,9 +212,9 @@
         </div>
         <hr />
       </section>
-      <section id="discount-code-and-total">
+      <section id="discount-code-and-total" class="flex flex-between">
         <div class="discount-code">
-          <div class="card-header">
+          <div class="card-header flex flex-between">
             <p>Add discount code</p>
             <i class="fa-solid fa-chevron-down"></i>
           </div>
@@ -230,28 +230,28 @@
         <h3>Continue as member?</h3>
         <p>Please <a href="pop-ups/login.html" id="login">Log in</a></p>
       </section>
-      <div class="payment-and-details">
+      <div class="payment-and-details flex flex-between">
         <!--Payment info-->
         <div class="information-container">
           <section id="payment-information" class="form">
             <h3 class="heading">Payment information</h3>
-            <div class="payment-item">
-              <div class="payment-item-left">
+            <div class="payment-item flex flex-between">
+              <div class="payment-item-left flex">
                 <h3 id="icon">K.</h3>
                 <h4>Klarna</h4>
               </div>
               <i class="fa-solid fa-chevron-down"></i>
             </div>
-            <div class="payment-item">
-              <div class="payment-item-left">
+            <div class="payment-item flex flex-between">
+              <div class="payment-item-left flex">
                 <i class="fa-solid fa-credit-card"></i>
                 <h4>Visa/Mastercard</h4>
               </div>
               <i class="fa-solid fa-chevron-up"></i>
             </div>
-            <form action="#" id="payment-form">
+            <form action="#" id="payment-form" class="flex">
               <!--Card number-->
-              <div class="form-container">
+              <div class="form-container flex">
                 <label for="card-number">Card number *</label>
                 <div class="form-item">
                   <input
@@ -264,7 +264,7 @@
                 </div>
               </div>
               <!--Cardholder name-->
-              <div class="form-container">
+              <div class="form-container flex">
                 <label for="card-name">Cardholder name *</label>
                 <div class="form-item">
                   <input
@@ -277,9 +277,9 @@
                 </div>
               </div>
               <!--Expiry date-->
-              <div class="form-container">
+              <div class="form-container flex">
                 <label for="experation-date">Experation date *</label>
-                <div class="form-row">
+                <div class="form-row flex">
                   <div class="half-width chevron-right">
                     <input
                       type="number"
@@ -301,8 +301,8 @@
                 </div>
               </div>
               <!--CVV-->
-              <div class="form-container">
-                <div class="label-info">
+              <div class="flex">
+                <div class="label-info flex">
                   <label for="cvv">CVV *</label>
                   <i class="fa-solid fa-circle-question"></i>
                 </div>
@@ -316,7 +316,7 @@
           <!--Shippment-info-->
           <section id="shippment-information" class="form">
             <h3 class="heading">Shippment information</h3>
-            <form action="#" id="shipping-form">
+            <form action="#" id="shipping-form flex">
               <!--Full name-->
               <label for="name">Name *</label>
               <div class="form-item">
@@ -336,7 +336,7 @@
                 <i class="fa-solid fa-envelope"></i>
               </div>
               <!--Street address-->
-              <div class="label-info">
+              <div class="label-info flex">
                 <label for="street-address">Street address *</label>
                 <i class="fa-solid fa-circle-question"></i>
               </div>
@@ -351,11 +351,11 @@
               </div>
 
               <!--Building number-->
-              <div class="label-info">
+              <div class="label-info flex">
                 <label for="building-nr">Building nr & zip code</label>
                 <i class="fa-solid fa-circle-question"></i>
               </div>
-              <div class="side-by-side">
+              <div class="side-by-side flex">
                 <div class="form-item half-width">
                   <input
                     type="number"
@@ -376,45 +376,45 @@
           <!--Shippment service-->
           <section id="shippment-service">
             <h3 class="heading">Shippment service</h3>
-            <div class="form-container">
+            <div class="form-container flex">
               <!--Free-shipping-->
-              <div class="shippment-item">
-                <div class="left-items">
+              <div class="shippment-item flex flex-between">
+                <div class="left-items flex">
                   <h3 class="shippment-name">Free shipping</h3>
                   <p class="shippment-time">5-7 business days</p>
                 </div>
-                <div class="right-items">
-                  <div class="price-and-select">
+                <div class="right-items flex">
+                  <div class="price-and-select flex">
                     <h3 class="shippment-price">$0</h3>
-                    <i class="fa-solid fa-circle selected"></i>
+                    <i class="fa-solid fa-circle selected flex flex-center"></i>
                   </div>
                   <p class="shippment-provider">Posten/Bring</p>
                 </div>
               </div>
               <!--Express shipping-->
-              <div class="shippment-item">
-                <div class="left-items">
+              <div class="shippment-item flex flex-between">
+                <div class="left-items flex">
                   <h3 class="shippment-name">Express shipping</h3>
                   <p class="shippment-time">2-3 business days</p>
                 </div>
-                <div class="right-items">
-                  <div class="price-and-select">
+                <div class="right-items flex">
+                  <div class="price-and-select flex">
                     <h3 class="shippment-price">$7.99</h3>
-                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle flex flex-center"></i>
                   </div>
                   <p class="shippment-provider">Posten/Bring</p>
                 </div>
               </div>
               <!--Same day delivery-->
-              <div class="shippment-item">
-                <div class="left-items">
+              <div class="shippment-item flex flex-between">
+                <div class="left-items flex">
                   <h3 class="shippment-name">Same day delivery</h3>
                   <p class="shippment-time">Same day if possible</p>
                 </div>
-                <div class="right-items">
-                  <div class="price-and-select">
+                <div class="right-items flex">
+                  <div class="price-and-select flex">
                     <h3 class="shippment-price">$12.99</h3>
-                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle flex flex-center"></i>
                   </div>
                   <p class="shippment-provider">PostNord</p>
                 </div>
@@ -424,26 +424,26 @@
         </div>
         <section id="details">
           <h3 class="heading">Details</h3>
-          <div class="details-container">
-            <div class="detail-item">
+          <div class="details-container flex">
+            <div class="detail-item flex flex-between">
               <h3 class="detail-heading">Subtotal</h3>
               <h3 class="detail-price">$99.00</h3>
             </div>
-            <div class="detail-item">
+            <div class="detail-item flex flex-between">
               <h3 class="detail-heading">Shipping</h3>
               <h3 class="detail-price">Free</h3>
             </div>
-            <div class="detail-item">
+            <div class="detail-item flex flex-between">
               <h3 class="detail-heading">Taxes</h3>
               <h3 class="detail-price">$0.99</h3>
             </div>
             <hr />
-            <div class="detail-item total">
+            <div class="detail-item total flex flex-between">
               <h3 class="detail-price">Total:</h3>
               <h3 class="detail-price">$99.99</h3>
             </div>
             <a href="purchase-confirmed.html">
-              <button id="confirm-purchase">
+              <button id="confirm-purchase" class="flex">
                 <h3>Confirm</h3>
               </button>
             </a>

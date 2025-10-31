@@ -263,18 +263,15 @@ nav {
 }
 /*Product info*/
 .product-info-section {
-  display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
 .product-info-images {
-  display: flex;
   flex-direction: column;
   gap: 1.2rem;
   margin-top: 1.2rem;
 }
 .small-product-images {
-  display: flex;
   gap: 1.6rem;
   justify-content: center;
 }
@@ -301,7 +298,6 @@ nav {
   font-size: 1.4rem;
 }
 .product-info-rating {
-  display: flex;
   gap: 0.2rem;
   margin-top: 0.8rem;
 }
@@ -320,7 +316,6 @@ nav {
   font-weight: 600;
 }
 .size-buttons {
-  display: flex;
   gap: 0.8rem;
   margin-top: 0.4rem;
 }
@@ -338,14 +333,10 @@ nav {
   margin-top: 1.6rem;
 }
 #add-to-bag-button {
-  display: flex;
   flex-direction: row;
   font-size: 1.6rem;
   gap: 0.8rem;
   margin-top: 0.4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .buy-product a {
   background-color: var(--btn-color);
@@ -383,7 +374,6 @@ nav {
   margin: 0.8rem 0.8rem;
   font-family: var(--font-bold);
   font-weight: 600;
-  display: flex;
   gap: 0.8rem;
 }
 .category-navigation a:hover,
@@ -398,7 +388,6 @@ nav {
 }
 /*Products container*/
 .products-container {
-  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 0.8rem;
@@ -412,12 +401,8 @@ nav {
   overflow-y: auto;
   scroll-behavior: smooth;
 }
-.cards-container {
-  display: flex;
-}
 /*Checkout*/
 #checkout {
-  display: flex;
   flex-direction: column;
   gap: 0.8rem;
   margin: 0 0.8rem;
@@ -426,7 +411,6 @@ nav {
   font-size: 3.2rem;
   font-family: var(--font-bold);
   font-weight: 900;
-  display: flex;
   justify-content: center;
   margin: 2.4rem 0;
 }
@@ -439,7 +423,6 @@ hr {
   border: 1px solid black;
 }
 .product-summary {
-  display: flex;
   gap: 1.6rem;
   margin: 1.2rem 0;
 }
@@ -460,8 +443,6 @@ hr {
   width: 100%;
 }
 .price-and-remove {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 #remove {
@@ -494,9 +475,7 @@ hr {
   display: block;
 }
 .payment-and-details {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 0.8rem;
 }
 #checkout form {
@@ -504,7 +483,6 @@ hr {
   font-size: 1.4rem;
   padding: 0.8rem 0.8rem;
   border-radius: 1.5rem;
-  display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
@@ -513,20 +491,16 @@ hr {
   margin-bottom: 0.8rem;
   padding: 0.8rem;
   border-radius: 1.5rem;
-  display: flex;
-  justify-content: space-between;
   font-size: 1.4rem;
   justify-items: center;
 }
 .payment-item-left {
-  display: flex;
   gap: 0.8rem;
 }
 .half-width {
   width: 50%;
 }
 .form-row {
-  display: flex;
   gap: 0.8rem;
 }
 .chevron-right {
@@ -538,11 +512,9 @@ hr {
   top: 0.6rem;
 }
 .side-by-side {
-  display: flex;
   gap: 0.8rem;
 }
 .form-container {
-  display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
@@ -550,17 +522,13 @@ hr {
   background-color: #aeb7bf;
   padding: 0.8rem;
   border-radius: 1.5rem;
-  display: flex;
-  justify-content: space-between;
 }
 .left-items {
-  display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 0.4rem;
 }
 .right-items {
-  display: flex;
   flex-direction: column;
   gap: 0.4rem;
 }
@@ -574,7 +542,6 @@ hr {
   font-size: 1.2rem;
 }
 .price-and-select {
-  display: flex;
   gap: 0.8rem;
   align-items: center;
   justify-content: flex-end;
@@ -585,9 +552,6 @@ hr {
   height: 2rem;
   background-color: #d9d9d9;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .price-and-select .selected {
   color: #9bff74;
@@ -603,7 +567,6 @@ hr {
   max-width: 30rem;
   border-radius: 1.5rem;
   margin: 0 auto;
-  display: flex;
   justify-content: center;
 }
 #confirm-purchase:hover {
@@ -614,15 +577,12 @@ hr {
 .details-container {
   border: 1px solid black;
   padding: 0.8rem;
-  display: flex;
   flex-direction: column;
   gap: 0.8rem;
   font-family: var(--font-bold);
 }
 .detail-item {
-  display: flex;
   gap: 1.2rem;
-  justify-content: space-between;
   font-size: 1.6rem;
 }
 .detail-price {
@@ -631,8 +591,6 @@ hr {
 /*Discount-code*/
 #discount-code-and-total {
   margin: 0.8rem 0;
-  display: flex;
-  justify-content: space-between;
 }
 #discount-code-and-total h3 {
   font-size: 1.8rem;
