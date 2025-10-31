@@ -785,8 +785,6 @@ footer span {
   top: 0.8rem;
 }
 .options {
-  display: flex;
-  justify-content: space-between;
   margin: 0 0.8rem;
   margin-bottom: 1.6rem;
 }
