@@ -1,4 +1,5 @@
 @import url(variables.css);
+/*Main styles*/
 html,
 body {
   height: 100%;
@@ -146,11 +147,6 @@ nav {
   display: flex;
   padding: 0.8rem 0.8rem;
   justify-content: space-between;
-}
-.products-display h2 {
-  font-family: var(--font-bold);
-  font-size: 2.4rem;
-  font-weight: 600;
 }
 .see-all-button {
   color: #3b79fd;
@@ -409,9 +405,7 @@ nav {
   display: flex;
   gap: 0.8rem;
 }
-.category-navigation a:hover {
-  text-decoration: underline;
-}
+.category-navigation a:hover,
 .category-navigation a.active {
   text-decoration: underline;
 }
@@ -513,8 +507,6 @@ hr {
   font-size: 2.4rem;
   font-family: var(--font-bold);
   font-weight: 600;
-  margin-top: 1.6rem;
-  margin-bottom: 0.8rem;
 }
 #checkout label {
   font-size: 1.4rem;
