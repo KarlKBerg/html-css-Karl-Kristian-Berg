@@ -835,6 +835,9 @@ footer span {
 .cart hr {
   margin: 0.8rem;
 }
+.checkout-btn {
+  background-color: var(--btn-color);
+}
 .checkout-btn:hover {
   background-color: var(--btn-color-hover);
 }
