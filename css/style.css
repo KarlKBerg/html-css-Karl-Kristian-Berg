@@ -258,13 +258,6 @@ nav {
 .subtotal {
   margin-top: 1.2rem;
 }
-.subtotal,
-.shipping,
-.tax,
-.total {
-  display: flex;
-  justify-content: space-between;
-}
 .total h4 {
   font-weight: 700;
 }
