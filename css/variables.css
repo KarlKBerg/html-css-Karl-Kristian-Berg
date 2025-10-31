@@ -1,0 +1,9 @@
+:root {
+  --font-bold: "Raleway", sans-serif;
+  --font-text: "Forum", serif;
+  /*Colors*/
+  --bg-color: #f2f2f2;
+  --bg-color-secondary: #aeb7bf;
+  --btn-color: #deb569;
+  --btn-color-hover: #f0cf92;
+}
