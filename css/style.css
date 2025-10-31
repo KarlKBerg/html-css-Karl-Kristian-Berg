@@ -1,4 +1,15 @@
 @import url(variables.css);
+/*Utility classes*/
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  justify-content: space-between;
+}
 /*Main styles*/
 html,
 body {
@@ -16,8 +27,6 @@ main {
 }
 /*Header*/
 header {
-  display: flex;
-  justify-content: space-between;
   background-color: var(--bg-color-secondary);
   padding: 16px 16px;
 }
@@ -32,7 +41,6 @@ nav {
   display: none;
 }
 .hamburger-menu {
-  display: flex;
   align-items: center;
   font-size: 3.2rem;
 }
@@ -53,10 +61,6 @@ nav {
   background: #00930f;
   border-radius: 50%;
   font-size: 1.6rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transform: translate(55%, 25%);
 }
 .hamburger-menu .shopping-bag i {
@@ -88,7 +92,6 @@ nav {
 }
 .hero h1 {
   font-size: 3.6rem;
-  display: flex;
   align-items: center;
   margin-left: 0.8rem;
   padding: 4rem 0;
@@ -107,13 +110,10 @@ nav {
 }
 .mobile-menu-header a {
   font-size: 2.4rem;
-  display: flex;
   align-items: center;
 }
 .mobile-menu-main ul {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 4rem;
   font-size: 3.2rem;
   margin-top: 4rem;
@@ -127,7 +127,6 @@ nav {
   font-size: 3.2rem;
   font-family: var(--font-bold);
   font-weight: 900;
-  display: flex;
   justify-content: center;
   margin: 2.4rem 0;
 }
