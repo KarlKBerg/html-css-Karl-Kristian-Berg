@@ -802,7 +802,7 @@ footer span {
 }
 .send-btn,
 .checkout-btn {
-  background-color: var(--bg-color);
+  background-color: var(--btn-color);
   width: 30rem;
   margin: 0 auto;
   display: flex;
