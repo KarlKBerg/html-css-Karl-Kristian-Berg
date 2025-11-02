@@ -589,6 +589,9 @@ hr {
   font-weight: 600;
 }
 /*Discount-code*/
+#checkout h3 {
+  margin: 0.8rem 0;
+}
 #discount-code-and-total {
   margin: 0.8rem 0;
 }
@@ -627,6 +630,9 @@ hr {
 }
 .label-info {
   gap: 0.8rem;
+}
+#shippment-information label {
+  margin: 0.8rem 0;
 }
 /*Cards*/
 .card {
