@@ -387,8 +387,6 @@ nav {
 .products-container {
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 0.8rem;
-  margin: 0.8rem 0.8rem;
 }
 /*Card container*/
 .carousel-container {
@@ -692,12 +690,10 @@ hr {
 }
 /*Footer*/
 footer {
-  width: 100%;
-  margin-top: 2.4rem;
   background-color: var(--bg-color-secondary);
-  min-height: 16rem;
   justify-content: center;
   font-family: var(--font-bold);
+  padding: 1.6rem 0;
 }
 footer img {
   display: none;
