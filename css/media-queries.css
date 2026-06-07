@@ -464,6 +464,7 @@
   footer {
     margin-top: 8rem;
     min-height: 20rem;
+    padding: 8rem;
   }
   .footer-text {
     display: flex;
