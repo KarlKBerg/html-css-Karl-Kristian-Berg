@@ -16,6 +16,9 @@
 }
 @media screen and (min-width: 800px) {
   /*HEADER*/
+  section {
+    padding: 0 2.4rem;
+  }
   header {
     padding: 2.4rem 2.4rem;
   }
@@ -213,8 +216,14 @@
     height: auto;
     padding-bottom: 1.6rem;
   }
+  footer {
+    padding: 4rem 0;
+  }
 }
 @media screen and (min-width: 1200px) {
+  section {
+    padding: 0 8rem;
+  }
   /*HEADER*/
   header nav ul {
     display: flex;
@@ -235,7 +244,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
   }
   .hero .bigger-screen h1 {
     font-size: 6.4rem;
@@ -278,9 +286,6 @@
     font-size: 2.4rem;
     margin-top: 2.4rem;
   }
-  .order-cost {
-    margin-left: 8rem;
-  }
   /*About us*/
   .about-us-section h2 {
     margin: 3.2rem 0;
@@ -307,10 +312,6 @@
   .carousel-container {
     padding-bottom: 1rem;
   }
-  .products-display {
-    margin-left: 18rem;
-    margin-right: 2.4rem;
-  }
   .display-heading {
     margin-top: 8rem;
   }
@@ -323,12 +324,10 @@
   /*Breadcrumbs*/
   .breadcrumbs {
     font-size: 2.4em;
-    margin-left: 18rem;
     margin-top: 4.8rem;
   }
   /*Page description*/
   .page-description {
-    margin-left: 18rem;
     font-size: 2.4rem;
     line-height: 3.5rem;
   }
@@ -346,10 +345,6 @@
     margin: 0.8rem 0;
   }
   /*Products container*/
-  .products-container {
-    gap: 2.4rem;
-    margin-left: 18rem;
-  }
   .products-display .display-heading {
     padding: 0;
   }
@@ -463,7 +458,6 @@
   /*FOOTER*/
   footer {
     margin-top: 8rem;
-    min-height: 20rem;
     padding: 8rem;
   }
   .footer-text {
@@ -504,10 +498,5 @@
   .contact {
     margin: 0;
     gap: 1.2rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .hero .bigger-screen {
-    margin-left: 200px;
   }
 }
